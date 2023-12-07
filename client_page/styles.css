@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.account-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.account-box p {
+    margin: 5px 0;
+}
+
+.transaction-list {
+    margin-top: 0;
+}
+
+.transaction-item {
+    margin-bottom: 5px;
+}
+
+.transaction-form {
+    display: none;
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button#exitButton {
+    background-color: #f44336;
+}
+
+button#exitButton:hover {
+    background-color: #d32f2f;
+}
+
+.total-balance {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px; /* Increased margin-top for better spacing */
+}
+
+/* Optional: Style for the Create Transaction button */
+.create-transaction-button {
+    background-color: #3498db;
+}
+
+.create-transaction-button:hover {
+    background-color: #2980b9;
+}
